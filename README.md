@@ -1,10 +1,10 @@
 # EasyBlog
 
-Обучающий проект Yatube является прототипом сети для публикации постов,
+Обучающий проект EasyBlog является прототипом сети для публикации постов,
 подписки на интересных авторов и комментирования их 
 записей.
 
-Для проекта Yatube реализовано API на основе Django Rest Framework.
+Для проекта EasyBlog реализовано API на основе Django Rest Framework.
 Аутентификация осуществляется с помощью токена JWT.
 
 ### Установка
@@ -12,7 +12,7 @@
 Клонируйте репозиторий и перейдите в папку с проектом
 ```
 git clone git@github.com:nepa27/easy_blog.git
-cd yatube_api
+cd easy_blog
 ```
 Создайте **виртуальное окружение**
 ```
@@ -34,25 +34,25 @@ python manage.py runserver
 Перейдите в корневую директорию проекта, где находится файл **manage.py**
 и запустите сервер
 ```
-cd yatube_api
+cd easy_blog
 python3 manage.py runserver
 ```
 Если вы все правильно сделали, то высветится приглашение
 ```
 System check identified no issues (0 silenced).
 April 20, 2024 - 15:35:58
-Django version 3.2.16, using settings 'yatube_api.settings'
+Django version 3.2.16, using settings 'easy_blog.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 Откройте браузер и перейдите по адресу **http://127.0.0.1:8000/redoc/**.
-Здесь представлена документация для API Yatube. В документации описано, как должен работать ваш API.
+Здесь представлена документация для API EasyBlog. В документации описано, как должен работать ваш API.
 Документация представлена в формате Redoc.
 
 
 При возникновении ошибки
 ```
-python: can't open file 'yatube_api/manage.py'[Errno 2] No such file or directory
+python: can't open file 'easy_blog/manage.py'[Errno 2] No such file or directory
 ```
 убедитесь, что вы находитесь в корневой директории проекта
 
